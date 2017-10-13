@@ -8,8 +8,17 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>fmsServiceImpl</artifactId>
-
-
+    <dependencies>
+        <dependency>
+            <groupId>com.achala</groupId>
+            <artifactId>fmsService</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.achala</groupId>
+            <artifactId>fmsRepository</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
